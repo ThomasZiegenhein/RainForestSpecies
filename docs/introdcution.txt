@@ -1,0 +1,11 @@
+Project aims to predict 25 songs from species (birds and frogs) from 60 second sound files recorded in the rainforest.
+The data was annotated by hand and is available from https://www.kaggle.com/c/rfcx-species-audio-detection.
+
+The principle path in the project is to extract snippets from the sound recordings, transform them with fft, and
+identify the power spectra with classification architectures like resnet.
+
+The data is loaded from local files in the 'data' module. Transformations and other basic operations can be found in
+'helpfun'. The neural network models are described in 'models'
+
+A minimal data sample is stored in 'sampledata', which can be used for developement. The complete data set can be
+downloaded over kaggle.

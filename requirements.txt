@@ -1,0 +1,9 @@
+###### Non-standard requirements with/without Version Specifiers ######
+numpy~=1.16.6
+mxnet~=1.6.0
+librosa~=0.8.0
+pandas~=1.1.4
+matplotlib
+seaborn
+interval~=1.0.0
+gluoncv~=0.8.0
